@@ -1,0 +1,28 @@
+2019-08-04 15:44:06,729 - MainProcess - [DEBUG] root: Unknown command-line arguments: []
+2019-08-04 15:44:06,732 - MainProcess - [INFO] os_utils: Disabled idle sleep.
+2019-08-04 15:44:07,222 - world - [INFO] launchables.world: Application Version: 1.14.6
+2019-08-04 15:44:07,222 - world - [INFO] launchables.world: System Info: User: garrettmillar, Platform: Darwin, Machine: Garretts-MBP, Release: 16.7.0, Version: Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64
+2019-08-04 15:44:07,488 - world - [INFO] video_capture: Install pyrealsense to use the Intel RealSense backend
+2019-08-04 15:44:07,488 - world - [INFO] video_capture: Install pyrealsense2 to use the Intel RealSense backend for D400 series cameras
+2019-08-04 15:44:07,764 - world - [ERROR] launchables.world: Process Capture crashed with trace:
+Traceback (most recent call last):
+  File "/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/launchables/world.py", line 154, in world
+    from fixation_detector import Fixation_Detector
+  File "/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/shared_modules/fixation_detector.py", line 47, in <module>
+    from eye_movement.utils import can_use_3d_gaze_mapping
+  File "/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/shared_modules/eye_movement/__init__.py", line 12, in <module>
+    from .eye_movement_detector_offline import Offline_Eye_Movement_Detector
+  File "/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/shared_modules/eye_movement/eye_movement_detector_offline.py", line 15, in <module>
+    import eye_movement.model as model
+  File "/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/shared_modules/eye_movement/model/__init__.py", line 20, in <module>
+    from .segment import (
+  File "/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/shared_modules/eye_movement/model/segment.py", line 21, in <module>
+    import nslr_hmm
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nslr_hmm/__init__.py", line 1, in <module>
+    from .nslr_hmm import *
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nslr_hmm/nslr_hmm.py", line 6, in <module>
+    import nslr
+ModuleNotFoundError: No module named 'nslr'
+
+2019-08-04 15:44:07,764 - world - [INFO] launchables.world: Process shutting down.
+2019-08-04 15:44:09,019 - MainProcess - [INFO] os_utils: Re-enabled idle sleep.

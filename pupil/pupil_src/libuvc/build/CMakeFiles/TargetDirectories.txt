@@ -1,0 +1,7 @@
+/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/libuvc/build/CMakeFiles/install/local.dir
+/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/libuvc/build/CMakeFiles/install/strip.dir
+/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/libuvc/build/CMakeFiles/install.dir
+/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/libuvc/build/CMakeFiles/uvc.dir
+/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/libuvc/build/CMakeFiles/list_install_components.dir
+/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/libuvc/build/CMakeFiles/rebuild_cache.dir
+/Users/garrettmillar/Desktop/ToM_Eyetracking/Eyetracker/pupil/pupil_src/libuvc/build/CMakeFiles/edit_cache.dir
